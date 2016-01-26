@@ -1,0 +1,35 @@
+[ 2016-01-26T14:07:30+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/toLogin
+ERR: 非法操作:toLogin
+
+[ 2016-01-26T16:19:22+08:00 ] ::1 /CM-CLUB/Index.php/
+ERR: SQLSTATE[HY000] [1044] Access denied for user 'alex'@'localhost' to database 'cm_club'
+
+[ 2016-01-26T16:21:22+08:00 ] ::1 /CM-CLUB/Index.php/
+ERR: 1142:SELECT command denied to user 'alex'@'localhost' for table 'user'
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-01-26T16:22:20+08:00 ] ::1 /CM-CLUB/Index.php/
+ERR: 1142:SELECT command denied to user 'alex'@'localhost' for table 'user'
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-01-26T16:47:36+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/Login
+ERR: 非法操作:Login
+
+[ 2016-01-26T16:50:45+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/log/act/reg
+ERR: Think\Model:reg方法不存在！
+
+[ 2016-01-26T16:51:52+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/log/act/reg
+ERR: 1062:Duplicate entry 'Felix' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`password`,`email`,`token`,`token_exptime`) VALUES ('Felix','9b8fe4c72c2ee1a5fd4b75fc601b85c0','1093335356@qq.com','dc3e3f373459b609498af11abac5917d','1453800112')
+
+[ 2016-01-26T19:00:54+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/log/act/reg
+ERR: 1062:Duplicate entry 'alex' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`password`,`email`,`token`,`token_exptime`,`time`) VALUES ('alex','534b44a19bf18d20b71ecc4eb77c572f','1093335356@qq.com','569a114d9fd1e4097bbb74eb2affe925','1453807854','1453806054')
+
+[ 2016-01-26T19:16:12+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/log/act/reg
+ERR: 1062:Duplicate entry 'alex' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`password`,`email`,`token`,`token_exptime`,`time`) VALUES ('alex','534b44a19bf18d20b71ecc4eb77c572f','1093335356@qq.com','c24f244769fe8c05b094aa81ec2aa529','1453808772','1453806972')
+
+[ 2016-01-26T19:40:16+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/log/act/reg
+ERR: Address in mailbox given [EMAIL_USERNAME] does not comply with RFC 2822, 3.6.2.
+

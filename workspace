@@ -22,14 +22,19 @@
                 <Folder name="Controller">
                     <File name="CM-CLUB\Home\Controller\index.html" />
                     <File name="CM-CLUB\Home\Controller\IndexController.class.php" />
+                    <File name="CM-CLUB\Home\Controller\UserController.class.php" />
                 </Folder>
                 <Folder name="Model">
                     <File name="CM-CLUB\Home\Model\index.html" />
+                    <File name="CM-CLUB\Home\Model\UserModel.class.php" />
                 </Folder>
                 <Folder name="View">
                     <File name="CM-CLUB\Home\View\index.html" />
                     <Folder name="Index">
                         <File name="CM-CLUB\Home\View\Index\index.html" />
+                    </Folder>
+                    <Folder name="Login">
+                        <File name="CM-CLUB\Home\View\Login\login.html" />
                     </Folder>
                 </Folder>
                 <File name="CM-CLUB\Home\index.html" />
@@ -77,27 +82,6 @@
                     <File name="CM-CLUB\Admin\View\index.html" />
                 </Folder>
                 <File name="CM-CLUB\Admin\index.html" />
-            </Folder>
-            <Folder name="Login">
-                <Folder name="Common">
-                    <File name="CM-CLUB\Login\Common\index.html" />
-                </Folder>
-                <Folder name="Conf">
-                    <File name="CM-CLUB\Login\Conf\config.php" />
-                    <File name="CM-CLUB\Login\Conf\index.html" />
-                </Folder>
-                <Folder name="Controller">
-                    <File name="CM-CLUB\Login\Controller\index.html" />
-                    <File name="CM-CLUB\Login\Controller\IndexController.class.php" />
-                </Folder>
-                <Folder name="Model">
-                    <File name="CM-CLUB\Login\Model\index.html" />
-                </Folder>
-                <Folder name="View">
-                    <File name="CM-CLUB\Login\View\index.html" />
-                    <File name="CM-CLUB\Login\View\login.html" />
-                </Folder>
-                <File name="CM-CLUB\Login\index.html" />
             </Folder>
         </Folder>
         <Folder name="Public">

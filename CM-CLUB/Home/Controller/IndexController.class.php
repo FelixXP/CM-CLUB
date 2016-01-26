@@ -3,8 +3,9 @@ namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
     public function index(){
-		$this->assign('log',false);
-		$this->assign('username','Felix');
-		$this->display('./Index/index');
+		// $user=A('User');
+		// $user->checkLogin();
+		// $this->display('./Index/index');
+		//dump(Vendor('Swift.swift_required'));
     }
 }
