@@ -1,0 +1,113 @@
+[ 2016-01-27T10:18:08+08:00 ] ::1 /CM-CLUB/Home/Controller/IndexController.class.php
+ERR: 无法加载控制器:Controller
+
+[ 2016-01-27T10:57:36+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/log/act/reg
+ERR: 1062:Duplicate entry 'alex' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`password`,`email`,`token`,`token_exptime`,`time`) VALUES ('alex','534b44a19bf18d20b71ecc4eb77c572f','849729868@qq.com','894c7fe1f399aa9cafde3df81b9bae9b','1453865256','1453863456')
+
+[ 2016-01-27T11:02:31+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/log/act/reg
+ERR: Address in mailbox given [EM_USERNAME] does not comply with RFC 2822, 3.6.2.
+
+[ 2016-01-27T11:53:54+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/Login
+ERR: 非法操作:Login
+
+[ 2016-01-27T11:54:16+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/Login
+ERR: 非法操作:Login
+
+[ 2016-01-27T11:56:29+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/Login
+ERR: 非法操作:Login
+
+[ 2016-01-27T11:58:13+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/toReg
+ERR: 模板不存在:./CM-CLUB/Home/View/Login/login#toregister.html
+
+[ 2016-01-27T12:38:13+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/toReg
+ERR: 模板不存在:./CM-CLUB/Home/View/Login/login/#toregister.html
+
+[ 2016-01-27T12:38:42+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/toReg
+ERR: 模板不存在:./CM-CLUB/Home/View/Login/login/#toregister/1.html
+
+[ 2016-01-27T12:39:01+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/toReg
+ERR: 模板不存在:./CM-CLUB/Home/View/Login/login//#toregister.html
+
+[ 2016-01-27T12:52:24+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/toReg
+ERR: 模板不存在:./CM-CLUB/Home/View/./CM-CLUB/Home/View/Login/login.html#tologin.html
+
+[ 2016-01-27T12:53:59+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/toReg
+ERR: 模板不存在:./CM-CLUB/Home/View/./CM-CLUB/Home/View/Login/login.html#tologin.html
+
+[ 2016-01-27T12:54:28+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/toReg
+ERR: 模板不存在:./CM-CLUB/Home/View/./CM-CLUB/Home/View/Login/login.html#tologin.html
+
+[ 2016-01-27T12:54:46+08:00 ] ::1 //CM-CLUB/Home/View/Login/login.html
+ERR: 无法加载控制器:View
+
+[ 2016-01-27T12:54:53+08:00 ] ::1 /CM-CLUB/Home/View/Login/login.html
+ERR: 无法加载控制器:View
+
+[ 2016-01-27T12:59:28+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/toReg
+ERR: 模板不存在:./CM-CLUB/Home/View/./CM-CLUB/Home/View/Login/login.html#tologin.html
+
+[ 2016-01-27T13:50:06+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/log/act/reg
+ERR: 非法操作:log
+
+[ 2016-01-27T13:51:07+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/register
+ERR: 1062:Duplicate entry 'alex' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`password`,`email`,`token`,`token_exptime`,`time`) VALUES ('alex','534b44a19bf18d20b71ecc4eb77c572f','849729868@qq.com','a9c2cdc33be0b56b219d834c3d1aa600','1453875667','1453873867')
+
+[ 2016-01-27T13:53:00+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/www.baidu.com
+ERR: 非法操作:www.baidu.com
+
+[ 2016-01-27T13:58:54+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/register
+ERR: 1062:Duplicate entry 'alex' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`password`,`email`,`token`,`token_exptime`,`time`) VALUES ('alex','534b44a19bf18d20b71ecc4eb77c572f','849729868@qq.com','611ec6b22bde162fcff905d8086d7978','1453876134','1453874334')
+
+[ 2016-01-27T13:59:07+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/register
+ERR: 1062:Duplicate entry 'alex' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`password`,`email`,`token`,`token_exptime`,`time`) VALUES ('alex','534b44a19bf18d20b71ecc4eb77c572f','849729868@qq.com','1db39b36ee40b53f9c348cc9db6c4f4f','1453876147','1453874347')
+
+[ 2016-01-27T13:59:59+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/register
+ERR: 1062:Duplicate entry 'alex' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`password`,`email`,`token`,`token_exptime`,`time`) VALUES ('alex','534b44a19bf18d20b71ecc4eb77c572f','849729868@qq.com','42a3e7c864eb56703543da5e6d07383b','1453876199','1453874399')
+
+[ 2016-01-27T14:00:23+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/register
+ERR: 1062:Duplicate entry 'alex' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`password`,`email`,`token`,`token_exptime`,`time`) VALUES ('alex','534b44a19bf18d20b71ecc4eb77c572f','849729868@qq.com','7c7c3bf2ed8d9ebab9a9062cc9ce73e3','1453876223','1453874423')
+
+[ 2016-01-27T14:00:34+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/register
+ERR: 1062:Duplicate entry 'alex' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`password`,`email`,`token`,`token_exptime`,`time`) VALUES ('alex','534b44a19bf18d20b71ecc4eb77c572f','849729868@qq.com','b7f6138998790c9eeca451d59f959fb5','1453876234','1453874434')
+
+[ 2016-01-27T14:06:49+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/register
+ERR: 1062:Duplicate entry 'alex' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`password`,`email`,`token`,`token_exptime`,`time`) VALUES ('alex','534b44a19bf18d20b71ecc4eb77c572f','849729868@qq.com','d155bf477adb3a0359b7ba1f77211073','1453876609','1453874809')
+
+[ 2016-01-27T14:16:47+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/3
+ERR: 非法操作:3
+
+[ 2016-01-27T14:18:48+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/www.baidu.com
+ERR: 非法操作:www.baidu.com
+
+[ 2016-01-27T14:25:32+08:00 ] ::1 /CM-CLUB/Home/Login/login
+ERR: 无法加载控制器:Login
+
+[ 2016-01-27T14:25:51+08:00 ] ::1 /CM-CLUB/Home/Login/login
+ERR: 无法加载控制器:Login
+
+[ 2016-01-27T14:25:59+08:00 ] ::1 /CM-CLUB/Home/Home/Index
+ERR: 无法加载控制器:Home
+
+[ 2016-01-27T14:26:40+08:00 ] ::1 /CM-CLUB/Home/Index/Home/Index/index
+ERR: 非法操作:Home
+
+[ 2016-01-27T14:28:16+08:00 ] ::1 /CM-CLUB/Home/Index/Home/Index/index
+ERR: 非法操作:Home
+
+[ 2016-01-27T14:28:32+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/Home/Index/index
+ERR: 非法操作:Home
+
+[ 2016-01-27T15:06:23+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/activaite
+ERR: 非法操作:activaite
+
+[ 2016-01-27T20:38:08+08:00 ] ::1 /CM-CLUB/
+ERR: Think\Controller:table方法不存在！
+

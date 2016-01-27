@@ -7,7 +7,7 @@
     <head>
         <meta charset="UTF-8" />
         <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  -->
-        <title>CM-CLUB 登录</title>
+        <title>CM-CLUB</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <meta name="description" content="Login and Registration Form with HTML5 and CSS3" />
         <meta name="keywords" content="html5, css3, form, switch, animation, :target, pseudo-class" />
@@ -31,7 +31,7 @@
                     <a class="hiddenanchor" id="tologin"></a>
                     <div id="wrapper">
                         <div id="login" class="animate form">
-                            <form  action="doAction.php?act=login" autocomplete="on" method="post"> 
+                            <form  action="http://localhost/CM-CLUB/Home/User/login" autocomplete="on" method="post">
                                 <h1>CM-CLUB</h1> 
                                 <p> 
                                     <label for="username" class="uname" data-icon="u" > 用户名  </label>
@@ -56,7 +56,7 @@
                         </div>
 
                         <div id="register" class="animate form">
-                            <form  action="http://localhost/CM-CLUB/Index.php/Home/User/log/act/reg"" autocomplete="on" method="post"> 
+                            <form  action="http://localhost/CM-CLUB/Index.php/Home/User/register" autocomplete="on" method="post">
                                 <h1> CM-CLUB </h1> 
                                 <p> 
                                     <label for="usernamesignup" class="uname" data-icon="u">用户名</label>
