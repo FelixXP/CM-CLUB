@@ -19,4 +19,5 @@ return array(
     'EM_ADMIN'=>'Felix',//发送者名称
 
 
+    '__PUBLIC__'    =>  APP_PATH.'Public',// 站点公共目录
 );

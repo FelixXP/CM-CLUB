@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CM-CLUB</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/IndexCss/Home.css" />
+</head>
+<body>
+<div id='login_box'>
+    <if condition="$log eq false">
+        <span id="collect">关注我们</span>
+        <span><a id='login' href="http://localhost/CM-CLUB/Index.php/Home/User/toLogin">登录</a></span>
+        <span>/</span>
+        <span><a id='register' href="http://localhost/CM-CLUB/Index.php/Home/User/toLogin#toregister">注册</a></span>
+        <else />
+        <span><a id='personal' href="#">{$username}</a></span>
+    </if>
+    <div/>
+    <div id="nav">
+        <ul id="contents">
+            <li><a href="#activity">活动</a></li>
+            <li><a href="#club">公会</a></li>
+            <li><a href="#"><img src="__PUBLIC__/IndexImg/logo.png"></a></li>
+            <li><a href="#time">时光</a></li>
+            <li><a href="#message">留言</a></li>
+        </ul>
+        <div id="round">
+            <span>&nbsp;&nbsp;&nbsp;past</span>
+            <span><img src="__PUBLIC__/IndexImg/round.png" ></span>
+            <span>future</span>
+        </div>
+    </div>
+<!--活动-->
+    <div id="activity" class="mainBox">
+        <span class="title">{$arr['actTitle1']}</span>
+        <span><img src="__PUBLIC__/IndexImg/actArrow1.png"></span>
+        <span class="title">{$arr['actTitle2']}</span>
+        <hr class="line">
+        <p class="brief">
+            {$arr['actBrief1']}<br/>
+            {$arr['actBrief2']}<br/>
+            {$arr['actBrief3']}
+        </p>
+        <br/>
+        <span class="go goText"><a href="#">报名活动</a></span>
+        <span class="go"><img src="__PUBLIC__/IndexImg/actArrow2.png">&nbsp;</span>
+    </div>
+<!--公会-->
+    <div id="club" class="mainBox">
+        <span class="title cluTitle">{$arr['cluTitle1']}</span>
+        <span><img src="__PUBLIC__/IndexImg/cluArrow1.png"></span>
+        <span class="title cluTitle">{$arr['cluTitle2']}</span>
+        <hr class="line">
+        <p class="brief cluBrief">
+            {$arr['cluBrief1']}<br/>
+            {$arr['cluBrief2']}<br/>
+            {$arr['cluBrief3']}
+        </p>
+        <br/>
+        <span class="go goText cluGoText"><a href="#" class="cluGo">加入公会</a></span>
+        <span class="go"><img src="__PUBLIC__/IndexImg/cluArrow2.png">&nbsp;</span>
+    </div>
+    <!--时光邮件-->
+    <div id="time" class="mainBox">
+        <span class="title timTitle">{$arr['timTitle1']}</span>
+        <span><img src="__PUBLIC__/IndexImg/timArrow1.png"></span>
+        <span class="title timTitle">{$arr['timTitle2']}</span>
+        <hr class="line">
+        <p class="brief cluBrief">
+            {$arr['timBrief1']}<br/>
+            {$arr['timBrief2']}<br/>
+            {$arr['timBrief3']}
+        </p>
+        <br/>
+        <span class="go goText timGoText"><a href="#" class="timGo">时光邮件</a></span>
+        <span class="go"><img src="__PUBLIC__/IndexImg/timArrow2.png">&nbsp;</span>
+    </div>
+<!--留言-->
+    <div id="message" class="mainBox">
+        <span class="title mesTitle">{$arr['mesTitle1']}</span>
+        <span><img src="__PUBLIC__/IndexImg/mesArrow1.png"></span>
+        <span class="title mesTitle">{$arr['mesTitle2']}</span>
+        <hr class="line">
+        <p class="brief mesBrief">
+            {$arr['mesBrief1']}<br/>
+            {$arr['mesBrief2']}<br/>
+            {$arr['mesBrief3']}
+        </p>
+        <br/>
+        <span class="go goText mesGoText"><a href="#" class="mesGo">留言吐槽</a></span>
+        <span class="go"><img src="__PUBLIC__/IndexImg/mesArrow2.png">&nbsp;</span>
+    </div>
+
+    <div id="bottom"></div>
+
+    </div>
+
+</body>
+</html>

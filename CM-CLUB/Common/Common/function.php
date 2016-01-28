@@ -9,6 +9,7 @@
 Vendor('swift.lib.swift_required');
 //加载第三方类swift，实现发送邮件功能
 
+//发送邮件
 function sentEmail($data){
     //发送邮件,以QQ邮箱为例
     //配置邮箱服务器，得到传输对象
@@ -41,4 +42,15 @@ function sentEmail($data){
         echo '邮件发送失败';
         return false;
     }
+}
+
+//获取主页文本信息
+function getContent(){
+    $arr=array();
+    $handle=fopen(C(MY_PUBLIC)."Text/activity.txt",'r');
+    while(!feof($handle)){
+        $key=trim(fgets($handle));
+        $arr[$key]=trim(fgets($handle));
+    }
+    return $arr;
 }
