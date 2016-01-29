@@ -1,0 +1,83 @@
+body{
+    background-color:#EEB968;
+}
+
+/*登录*/
+#login_box{
+    background-color:#F9E5C0;
+    /*text-align:right;*/
+    line-height:40px;
+}
+
+#logo img{
+    background-color:#FFD98E;
+}
+
+#contents{
+    background-color:#FFD98E;
+}
+
+#contents li a{color:#5d5f78;}
+
+#mesCont{
+    background-color:#FEC279;
+}
+
+#main{
+    background-color:#EEB968;
+    background-image:url('../IndexImg/messageBg.png');
+    background-repeat: no-repeat;
+    padding:80px 0 0 0;
+}
+
+#toEdit{
+    font-family:"SimHei";
+    color:white;
+    letter-spacing:13px;
+    font-size:28px;
+    text-align:center;
+    padding:8px 0px 8px 13px;
+    background-color:#EB7D4A;
+    width:200px;
+    box-shadow:0 5px 5px #C76A3E;
+    margin:0 auto;
+    display: block;
+}
+
+#mesText{
+    height:400px;
+}
+
+#edit{
+    width:1000px;
+    margin:0 auto;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.9;
+    -khtml-opacity: 0.9;
+    opacity: 0.9;
+    /*text-align:right;*/
+
+}
+
+#textEditor{
+    height:150px;
+    max-height:200px;
+    width:100%;
+    margin-bottom:50px;
+}
+
+
+#mesSubmit{
+    margin:2px 0 50px 0;
+    float:right;
+    padding:5px 12px 5px 12px;
+    font-size:22px;
+    font-family:"SimHei";
+    background-color:#EB7D4A;
+    color:white;
+    letter-spacing:4px;
+}
+
+#mesSubmit:hover{
+    cursor:pointer
+}

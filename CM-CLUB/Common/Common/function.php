@@ -6,6 +6,24 @@
  * Time: 10:19
  */
 
+
+//检查是否登录
+function checkLogin(){
+    if(!empty($_SESSION['name'])){
+       return true;
+    }else{
+        return false;
+    }
+}
+
+
+
+
+
+
+
+
+
 Vendor('swift.lib.swift_required');
 //加载第三方类swift，实现发送邮件功能
 
@@ -54,3 +72,4 @@ function getContent(){
     }
     return $arr;
 }
+

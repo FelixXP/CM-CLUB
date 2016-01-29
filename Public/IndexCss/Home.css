@@ -1,39 +1,8 @@
-@font-face {
-    font-family:"FZY3JW";
-    src:url('../Fonts/FZY3JW.ttf');
-}
-@font-face {
-    font-family:"FZKANGJW";
-    src:url('../Fonts/FZKANGJW.ttf');
-}
-
-@font-face {
-    font-family:"Segoe Script";
-    src:url('../Fonts/segoesc.ttf');
-}
-@font-face {
-    font-family:"STFANGSO";
-    src:url('../Fonts/STFANGSO.ttf');
-}
-
-*{
-    margin:0px;
-    padding:0px;
-    border:0px;
-}
-a{text-decoration:none;color:white;}
-
-/*登录*/
+a{color:white;}
 #login_box{
     background-color:#AB91B4;
-    text-align:right;
     line-height:25px;
 }
-
-#collect{
-    float:left;
-}
-
 /*导航栏*/
 #nav{
     width:100%;
@@ -173,50 +142,6 @@ a{text-decoration:none;color:white;}
     border: 2px solid #393939;
 }
 
-
-
-
-
-
-
-
-
-
-
-/*底部*/
-#bottom{
-    text-align: left;
-    height:250px;
-    width:auto;
-    background-color:#191919;
-    color:#f7f7fb;
-}
-
-#contactUs{
-    float:left;
-    margin:50px 0 0 150px;
-}
-
-#collectUs{
-    float:left;
-    margin:50px 0 0 200px;
-}
-
-#bottom hr{
-    height:6px;
-    width:60px;
-    background-color:#f7f7fb;
-    margin: 4px 0 10px 0;
-}
-
-#bottom b{
-    font-family:"SimHei";
-    font-size:30px;
-}
-
-#bottom p{
-    font-family:"华文仿宋";
-}
 
 #toTop{
     width:40px;

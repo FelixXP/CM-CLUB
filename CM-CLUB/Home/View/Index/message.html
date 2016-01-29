@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CM-CLUB</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/IndexCss/logBox.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/IndexCss/message.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/IndexCss/bottomBox.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/editor/css/wangEditor.css">
+</head>
+<body>
+<!--添加登录框-->
+<include file="logBox"/>
+<!--添加菜单栏-->
+<include file="contentBox"/>
+<div id="main">
+    <a id="toEdit" href="#edit"><span>我有话说</span></a>
+    <div id="mesText"></div>
+    <form id="edit" method="post" action="./Home/Index/testFelix">
+        <textarea id='textEditor' name="newMessage"></textarea>
+        <input id="mesSubmit" type="submit" value="发表留言" />
+    </form>
+</div>
+
+<!--添加底部-->
+<include file="bottomBox"/>
+
+<script type="text/javascript" src='__PUBLIC__/editor/js/jquery-1.10.2.min.js'></script>
+<script type="text/javascript" src='__PUBLIC__/editor/js/wangEditor.js'></script>
+<script type="text/javascript" src='__PUBLIC__/editor/js/editor.js'></script>
+</body>
+</html>

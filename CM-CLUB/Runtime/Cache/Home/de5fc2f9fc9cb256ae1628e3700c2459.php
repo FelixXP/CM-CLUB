@@ -89,7 +89,7 @@
         <?php echo ($arr['mesBrief3']); ?>
     </p>
     <br/>
-    <span class="go goText mesGoText"><a href="#" class="mesGo">留言吐槽</a></span>
+    <span class="go goText mesGoText"><a href="./Home/Index/linkTo/aim/message" class="mesGo">留言吐槽</a></span>
     <span class="go"><img src="/CM-CLUB/Public/IndexImg/mesArrow2.png">&nbsp;</span>
 </div>
 <!--添加底部-->

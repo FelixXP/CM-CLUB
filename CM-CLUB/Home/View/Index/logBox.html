@@ -1,0 +1,11 @@
+<body>
+<div id='login_box'>
+    <if condition="$log eq false">
+        <span id="collect">关注我们</span>
+        <span><a id='login' href="http://localhost/CM-CLUB/Index.php/Home/User/toLogin">登录</a></span>
+        <span>/</span>
+        <span><a id='register' href="http://localhost/CM-CLUB/Index.php/Home/User/toLogin#toregister">注册</a></span>
+        <else />
+        <span><a id='personal' href="#">{$username}</a></span>
+    </if>
+</div>

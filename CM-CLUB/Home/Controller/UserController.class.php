@@ -3,16 +3,6 @@ namespace Home\Controller;
 use Think\Controller;
 
 class UserController extends Controller{
-	//检查是否登录
-	public function checkLogin(){
-		if(!empty($_SESSION['name'])){
-			$this->assign('log',true);
-			$this->assign('username',$_SESSION['name']);
-		}else{
-			$this->assign('log',false);
-		}
-	}
-	
 	//进入登录页
 	public function toLogin(){
         $this->display('Login/login');

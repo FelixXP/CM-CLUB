@@ -1,0 +1,35 @@
+@font-face {
+    font-family:"FZY3JW";
+    src:url('../Fonts/FZY3JW.ttf');
+}
+@font-face {
+    font-family:"FZKANGJW";
+    src:url('../Fonts/FZKANGJW.ttf');
+}
+
+@font-face {
+    font-family:"Segoe Script";
+    src:url('../Fonts/segoesc.ttf');
+}
+@font-face {
+    font-family:"STFANGSO";
+    src:url('../Fonts/STFANGSO.ttf');
+}
+
+*{
+    margin:0px;
+    padding:0px;
+    border:0px;
+}
+a{text-decoration:none;}
+
+/*登录*/
+#login_box{
+    /*background-color:#AB91B4;*/
+    text-align:right;
+    /*line-height:25px;*/
+}
+#collect{
+    float:left;
+    margin:0 0 0 15px;
+}
