@@ -185,7 +185,55 @@ a{text-decoration:none;color:white;}
 
 /*底部*/
 #bottom{
+    text-align: left;
     height:250px;
     width:auto;
     background-color:#191919;
+    color:#f7f7fb;
+}
+
+#contactUs{
+    float:left;
+    margin:50px 0 0 150px;
+}
+
+#collectUs{
+    float:left;
+    margin:50px 0 0 200px;
+}
+
+#bottom hr{
+    height:6px;
+    width:60px;
+    background-color:#f7f7fb;
+    margin: 4px 0 10px 0;
+}
+
+#bottom b{
+    font-family:"SimHei";
+    font-size:30px;
+}
+
+#bottom p{
+    font-family:"华文仿宋";
+}
+
+#toTop{
+    width:40px;
+    height:40px;
+    background-color: #666666;
+    float:right;
+    text-align: right;
+    overflow:hidden;
+    position:fixed;
+    bottom:40px;
+    color:white;
+    right:0;
+    line-height:30px;
+    cursor:pointer;
+
+}
+
+#toTop img{
+    height:40px;
 }

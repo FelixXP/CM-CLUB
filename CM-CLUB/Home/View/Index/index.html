@@ -19,10 +19,10 @@
     <div id="nav">
         <ul id="contents">
             <li><a href="#activity">活动</a></li>
-            <li><a href="#">公会</a></li>
+            <li><a href="#club">公会</a></li>
             <li><a href="#"><img src="__PUBLIC__/IndexImg/logo.png"></a></li>
-            <li><a href="#">时光</a></li>
-            <li><a href="#">留言</a></li>
+            <li><a href="#time">时光</a></li>
+            <li><a href="#message">留言</a></li>
         </ul>
         <div id="round">
             <span>&nbsp;&nbsp;&nbsp;past</span>
@@ -30,12 +30,11 @@
             <span>future</span>
         </div>
     </div>
-
-    <div id="activity">
+    <!--活动-->
+    <div id="activity" class="mainBox">
         <span class="title">{$arr['actTitle1']}</span>
-        <span><img src="__PUBLIC__/IndexImg/arrowAct1.png"></span>
+        <span><img src="__PUBLIC__/IndexImg/actArrow1.png"></span>
         <span class="title">{$arr['actTitle2']}</span>
-        <!--<p class="line">123</p>-->
         <hr class="line">
         <p class="brief">
             {$arr['actBrief1']}<br/>
@@ -44,13 +43,57 @@
         </p>
         <br/>
         <span class="go goText"><a href="#">报名活动</a></span>
-        <span class="go"><img src="__PUBLIC__/IndexImg/arrowAct2.png">&nbsp;</span>
+        <span class="go"><img src="__PUBLIC__/IndexImg/actArrow2.png">&nbsp;</span>
+    </div>
+    <!--公会-->
+    <div id="club" class="mainBox">
+        <span class="title cluTitle">{$arr['cluTitle1']}</span>
+        <span><img src="__PUBLIC__/IndexImg/cluArrow1.png"></span>
+        <span class="title cluTitle">{$arr['cluTitle2']}</span>
+        <hr class="line">
+        <p class="brief cluBrief">
+            {$arr['cluBrief1']}<br/>
+            {$arr['cluBrief2']}<br/>
+            {$arr['cluBrief3']}
+        </p>
+        <br/>
+        <span class="go goText cluGoText"><a href="#" class="cluGo">加入公会</a></span>
+        <span class="go"><img src="__PUBLIC__/IndexImg/cluArrow2.png">&nbsp;</span>
+    </div>
+    <!--时光邮件-->
+    <div id="time" class="mainBox">
+        <span class="title timTitle">{$arr['timTitle1']}</span>
+        <span><img src="__PUBLIC__/IndexImg/timArrow1.png"></span>
+        <span class="title timTitle">{$arr['timTitle2']}</span>
+        <hr class="line">
+        <p class="brief cluBrief">
+            {$arr['timBrief1']}<br/>
+            {$arr['timBrief2']}<br/>
+            {$arr['timBrief3']}
+        </p>
+        <br/>
+        <span class="go goText timGoText"><a href="#" class="timGo">时光邮件</a></span>
+        <span class="go"><img src="__PUBLIC__/IndexImg/timArrow2.png">&nbsp;</span>
+    </div>
+    <!--留言-->
+    <div id="message" class="mainBox">
+        <span class="title mesTitle">{$arr['mesTitle1']}</span>
+        <span><img src="__PUBLIC__/IndexImg/mesArrow1.png"></span>
+        <span class="title mesTitle">{$arr['mesTitle2']}</span>
+        <hr class="line">
+        <p class="brief mesBrief">
+            {$arr['mesBrief1']}<br/>
+            {$arr['mesBrief2']}<br/>
+            {$arr['mesBrief3']}
+        </p>
+        <br/>
+        <span class="go goText mesGoText"><a href="#" class="mesGo">留言吐槽</a></span>
+        <span class="go"><img src="__PUBLIC__/IndexImg/mesArrow2.png">&nbsp;</span>
     </div>
 
+    <div id="bottom"></div>
 
-    <div id="bottom">
-
-    </div>
+</div>
 
 </body>
 </html>
