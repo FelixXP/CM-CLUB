@@ -11,12 +11,14 @@
 <!--添加登录框-->
 <body>
 <div id='login_box'>
-    <?php if($log == false): ?><span id="collect">关注我们</span>
+    <?php if($log == false): ?><span id="collect"><a href="http://weibo.com/2231865444/profile">关注我们</a></span>
         <span><a id='login' href="http://localhost/CM-CLUB/Index.php/Home/User/toLogin">登录</a></span>
         <span>/</span>
         <span><a id='register' href="http://localhost/CM-CLUB/Index.php/Home/User/toLogin#toregister">注册</a></span>
         <?php else: ?>
-        <span><a id='personal' href="#"><?php echo ($username); ?></a></span><?php endif; ?>
+        <span id="collect"><a href="http://weibo.com/2231865444/profile">关注我们</a></span>
+        <span><a id='personal' href="#"><?php echo ($username); ?></a></span>
+        <span><a id='logout' href="<?php echo U('Home/User/logout');?>">退出</a></span><?php endif; ?>
 </div>
 <div id="nav">
     <ul id="contents">
@@ -89,7 +91,7 @@
         <?php echo ($arr['mesBrief3']); ?>
     </p>
     <br/>
-    <span class="go goText mesGoText"><a href="./Home/Index/linkTo/aim/message" class="mesGo">留言吐槽</a></span>
+    <span class="go goText mesGoText"><a href="http://localhost/CM-CLUB/index.php/Home/Index/linkTo/aim/message" class="mesGo">留言吐槽</a></span>
     <span class="go"><img src="/CM-CLUB/Public/IndexImg/mesArrow2.png">&nbsp;</span>
 </div>
 <!--添加底部-->

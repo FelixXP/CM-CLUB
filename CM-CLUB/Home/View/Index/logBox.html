@@ -1,11 +1,13 @@
 <body>
 <div id='login_box'>
     <if condition="$log eq false">
-        <span id="collect">关注我们</span>
+        <span id="collect"><a href="http://weibo.com/2231865444/profile">关注我们</a></span>
         <span><a id='login' href="http://localhost/CM-CLUB/Index.php/Home/User/toLogin">登录</a></span>
         <span>/</span>
         <span><a id='register' href="http://localhost/CM-CLUB/Index.php/Home/User/toLogin#toregister">注册</a></span>
         <else />
+        <span id="collect"><a href="http://weibo.com/2231865444/profile">关注我们</a></span>
         <span><a id='personal' href="#">{$username}</a></span>
+        <span><a id='logout' href="{:U('Home/User/logout')}">退出</a></span>
     </if>
 </div>

@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>CM-CLUB</title>
+    <script src="__PUBLIC__/IndexJs/jquery-2.1.4.js"></script>
     <link rel="stylesheet" type="text/css" href="__PUBLIC__/IndexCss/logBox.css" />
     <link rel="stylesheet" type="text/css" href="__PUBLIC__/IndexCss/message.css" />
     <link rel="stylesheet" type="text/css" href="__PUBLIC__/IndexCss/bottomBox.css" />
     <link rel="stylesheet" type="text/css" href="__PUBLIC__/editor/css/wangEditor.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/ctmessage-master/ctmessage-master.css">
 </head>
 <body>
 <!--添加登录框-->
@@ -15,10 +17,13 @@
 <include file="contentBox"/>
 <div id="main">
     <a id="toEdit" href="#edit"><span>我有话说</span></a>
-    <div id="mesText"></div>
-    <form id="edit" method="post" action="./Home/Index/testFelix">
+<!--留言列表-->
+    <div id="mesBox" ></div>
+
+    <form id="edit" method="post" action="http://localhost/CM-CLUB/index.php/Home/Message/newMessage" onsubmit="return checkLength(); onFocus=clearMen()">
         <textarea id='textEditor' name="newMessage"></textarea>
         <input id="mesSubmit" type="submit" value="发表留言" />
+        <p id="mention"></p>
     </form>
 </div>
 
@@ -28,5 +33,7 @@
 <script type="text/javascript" src='__PUBLIC__/editor/js/jquery-1.10.2.min.js'></script>
 <script type="text/javascript" src='__PUBLIC__/editor/js/wangEditor.js'></script>
 <script type="text/javascript" src='__PUBLIC__/editor/js/editor.js'></script>
+<script type="text/javascript" src='__PUBLIC__/IndexJs/message.js'></script>
+<script type="text/javascript" src='__PUBLIC__/ctmessage-master/ctmessage-master.js'></script>
 </body>
 </html>

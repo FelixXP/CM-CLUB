@@ -1,7 +1,9 @@
 body{
     background-color:#EEB968;
 }
-
+a{
+    color:#3E3D32;
+}
 /*登录*/
 #login_box{
     background-color:#F9E5C0;
@@ -44,13 +46,67 @@ body{
     display: block;
 }
 
-#mesText{
-    height:400px;
+#mesBox{
+    /*height:600px;*/
+    width:850px;
+    margin:200px auto 0 auto ;
+    /*background-color:ghostwhite;*/
+    padding:10px 0 40px 0;
 }
+
+#mes{
+    padding:10px 0 0 0;
+}
+
+.boxImg{
+    float:left;
+    /*width:70px;*/
+    /*height:70px;*/
+    /*background-color:black;*/
+}
+
+.box{
+    width:700px;
+    display: block;
+    height:auto;
+    background-image:url("../IndexImg/mesTextBox.png");
+    background-repeat:no-repeat;
+    background-size:700px 100%;
+    margin:10px 0 0 70px;
+    padding:4px 0 0px 0;
+}
+
+.boxTop{
+    margin:0 0 5px 30px;
+}
+.boxText{
+    margin:0 0 0 40px;
+    line-height: 22px;
+    border-top:1px #D0D0D0 solid;
+    padding:4px;
+}
+
+.boxReply{
+    text-align: right;
+    padding:0px 20px 5px 0;
+    letter-spacing:4px;
+
+}
+.boxText,.boxReply,.boxTop{
+    color:#3E3D32;
+    font-family: "SimHei";
+}
+.boxName{
+    font-weight: bold;
+}
+
+
+
+
 
 #edit{
     width:1000px;
-    margin:0 auto;
+    margin:50px auto 0 auto;
     filter:alpha(opacity=50);
     -moz-opacity:0.9;
     -khtml-opacity: 0.9;
@@ -80,4 +136,11 @@ body{
 
 #mesSubmit:hover{
     cursor:pointer
+}
+
+
+#mention{
+    color:red;
+    float:right;
+    margin:0 10px 0 0;
 }

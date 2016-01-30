@@ -52,12 +52,20 @@ class UserController extends Controller{
             //$this->success('帐号尚未激活，请先到邮箱激活帐号',U("User/toLogin"));
         }
         elseif($login_statu===2){
-            $_SESSION['name']=$data['name'];
-            $_SESSION['id']=$data['id'];
-            $this->success('登录成功，即将跳转到首页',U("Index/index"));
+            session('name',$data['name']);
+            session('id',$data['id']);
+            //登录成功，跳转到主页
+            $this->redirect('Home/Index/index');
         }
         elseif($login_statu===3){
-            $this->success('帐号或密码错误',U("User/toLogin"));
+            $this->success('帐号或密码错误，请重新的登录',U("User/toLogin"));
         }
+    }
+
+    //退出登录
+    public function logout(){
+        session(null);
+        $this->redirect('Home/Index/index');
+
     }
 }

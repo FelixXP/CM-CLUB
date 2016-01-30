@@ -180,7 +180,6 @@ abstract class Controller {
     protected function success($message='',$jumpUrl='',$ajax=false) {
         $this->dispatchJump($message,1,$jumpUrl,$ajax);
     }
-
     /**
      * Ajax方式返回数据到客户端
      * @access protected
