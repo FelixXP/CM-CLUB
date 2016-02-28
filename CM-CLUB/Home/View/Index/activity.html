@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CM-CLUB 公会</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/IndexCss/logBox.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/IndexCss/bottomBox.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/IndexCss/activity.css" />
+</head>
+<body>
+<!--添加登录框-->
+<include file="logBox"/>
+<!--添加菜单栏-->
+<include file="contentBox"/>
+<div id="main">
+    <div id="left">
+        <div id="calendar"></div>
+        <span><a id="topAct" href="#">热门活动</a></span>
+        <span><a id="myAct" href="#">我的活动</a></span>
+    </div>
+
+    <div id="right">
+        <div id="searAct">
+            <span>搜索你想要参加的活动</span>
+            <br/>
+            <form action="#" method="get">
+                <input type="search" name="search" id="searBox"/>
+                <input type="submit" value="搜索" id="searSub"/>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<!--添加底部-->
+<include file="bottomBox"/>
+</body>
+</html>

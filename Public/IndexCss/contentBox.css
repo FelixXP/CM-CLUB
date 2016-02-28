@@ -6,7 +6,7 @@
     width:80px;
     height:auto;
     top:15px;
-    left:140px;
+    left:110px;
     position: absolute;
     padding:2px;
     /*background-color:#FFD98E;*/
@@ -26,7 +26,7 @@
     font-family:'方正准圆简体';
     font-size:40px;
     list-style-type:none;
-    line-height:70px;
+    line-height:68px;
     letter-spacing:8px;
 }
 #contents li a{

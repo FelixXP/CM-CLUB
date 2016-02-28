@@ -24,6 +24,10 @@
 a{text-decoration:none;}
 
 /*登录*/
+#login_box a,#login_box span{
+    font-family:"SimHei";
+}
+
 #login_box{
     /*background-color:#AB91B4;*/
     text-align:right;
@@ -32,12 +36,8 @@ a{text-decoration:none;}
 #collect{
     float:left;
     margin:0 0 0 15px;
-    font-family:"SimHei";
-;}
-#login{
-    font-family:"SimHei";
 }
+
 #personal,#logout,#register{
     padding:0 15px 0 0px;
-    font-family:"SimHei";
 }

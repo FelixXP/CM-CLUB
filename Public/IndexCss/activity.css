@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:#D2EDE8;
+}
+a{
+    color:#3E3D32;
+}
+/*登录*/
+#login_box{
+    background-color:#78C6B8;
+    text-align:right;
+    line-height:40px;
+}
+
+#logo img{
+    background-color:#18C2A5;
+}
+
+#contents{
+    background-color:#18C2A5;
+}
+
+#contents li a{color:#FFFFFF;}
+
+#login_box a,#login_box span{
+    color:#FFFFFF;
+}
+
+#actCont{
+    background-color:#288D7F;
+}
+
+
+/*main*/
+#main{
+    clear:both;
+}
+#left,#right{
+    height:800px;
+}
+
+/*left*/
+#left{
+    background-color:#288D7F;
+    width:250px;
+    float:left;
+}
+
+#topAct,#myAct{
+    display:block;
+    border-bottom:1px solid #f7f7fb ;
+    width:100%;
+    line-height:40px;
+    text-align:center;
+    letter-spacing:10px;
+    font-size:22px;
+    color:#f7f7fb;
+    font-family:"SimHei";
+    padding:5px 0;
+}
+
+#topAct {
+    margin:10px 0 0 0;
+    border-top:1px solid #f7f7fb ;
+}
+
+#searAct{
+    padding:20px 0 0 0;
+    height:100px;
+    background-image:url('../IndexImg/searchBg.png');
+    background-size:auto 100%;
+    background-repeat:repeat-x;
+    /*background-position: bottom left;*/
+}
+
+#searAct > span{
+    font-size:22px;
+    letter-spacing:6px;
+    padding:0 0 20px 0;
+    font-family:"SimHei";
+    color:#272822;
+}
+
+#searAct input{
+    margin:18px 0 0 0 ;
+}
+
+#searBox{
+    width:260px;
+    height:30px;
+    color:#272822;
+    font-size:18px;
+}
+
+#searSub{
+    text-align:center;
+    height:30px;
+    width:60px;
+    background-color:#18C2A5;
+    color:#f7f7fb;
+    font-family:"SimHei";
+    font-size:18px;
+    letter-spacing:4px;
+}
+
+
+
+
+
+
+
+/*right*/
+#right{
+    text-align:center;
+    width:100%;
+    background-color:#f7f7fb;
+
+}
+
+

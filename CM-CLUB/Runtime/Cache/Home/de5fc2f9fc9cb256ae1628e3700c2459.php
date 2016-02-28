@@ -24,7 +24,7 @@
     <ul id="contents">
         <li><a href="#activity">活动</a></li>
         <li><a href="#club">公会</a></li>
-        <li><a href="#"><img src="/CM-CLUB/Public/IndexImg/logo.png"></a></li>
+        <li><a href="/Home/Index"><img src="/CM-CLUB/Public/IndexImg/logo.png"></a></li>
         <li><a href="#time">时光</a></li>
         <li><a href="#message">留言</a></li>
     </ul>
@@ -76,7 +76,7 @@
         <?php echo ($arr['timBrief3']); ?>
     </p>
     <br/>
-    <span class="go goText timGoText"><a href="#" class="timGo">时光邮件</a></span>
+    <span class="go goText timGoText"><a href="http://hi2future.com/" class="timGo">时光邮局</a></span>
     <span class="go"><img src="/CM-CLUB/Public/IndexImg/timArrow2.png">&nbsp;</span>
 </div>
 <!--留言-->

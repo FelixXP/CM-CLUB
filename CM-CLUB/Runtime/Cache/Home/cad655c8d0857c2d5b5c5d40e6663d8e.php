@@ -2,13 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CM-CLUB</title>
-    <script src="/CM-CLUB/Public/IndexJs/jquery-2.1.4.js"></script>
+    <title>CM-CLUB 公会</title>
     <link rel="stylesheet" type="text/css" href="/CM-CLUB/Public/IndexCss/logBox.css" />
-    <link rel="stylesheet" type="text/css" href="/CM-CLUB/Public/IndexCss/message.css" />
     <link rel="stylesheet" type="text/css" href="/CM-CLUB/Public/IndexCss/bottomBox.css" />
-    <link rel="stylesheet" type="text/css" href="/CM-CLUB/Public/editor/css/wangEditor.css">
-    <link rel="stylesheet" type="text/css" href="/CM-CLUB/Public/ctmessage-master/ctmessage-master.css">
+    <link rel="stylesheet" type="text/css" href="/CM-CLUB/Public/IndexCss/activity.css" />
 </head>
 <body>
 <!--添加登录框-->
@@ -33,16 +30,24 @@
     <li><a href="#message" id="mesCont" >留言</a></li>
 </ul>
 <div id="main">
-    <a id="toEdit" href="#edit"><span>我有话说</span></a>
-<!--留言列表-->
-    <div id="mesBox" ></div>
+    <div id="left">
+        <div id="calendar"></div>
+        <span><a id="topAct" href="#">热门活动</a></span>
+        <span><a id="myAct" href="#">我的活动</a></span>
+    </div>
 
-    <form id="edit" method="post" action="http://localhost/CM-CLUB/index.php/Home/Message/newMessage" onsubmit="return checkLength(); onFocus=clearMen()">
-        <textarea id='textEditor' name="newMessage"></textarea>
-        <input id="mesSubmit" type="submit" value="发表留言" />
-        <p id="mention"></p>
-    </form>
+    <div id="right">
+        <div id="searAct">
+            <span>搜索你想要参加的活动</span>
+            <br/>
+            <form action="#" method="get">
+                <input type="search" name="search" id="searBox"/>
+                <input type="submit" value="搜索" id="searSub"/>
+            </form>
+        </div>
+    </div>
 </div>
+
 
 <!--添加底部-->
 <div id="bottom">
@@ -61,11 +66,5 @@
         <p>GitHub：https://github.com/FelixXP</p>
     </div>
 </div>
-
-<script type="text/javascript" src='/CM-CLUB/Public/editor/js/jquery-1.10.2.min.js'></script>
-<script type="text/javascript" src='/CM-CLUB/Public/editor/js/wangEditor.js'></script>
-<script type="text/javascript" src='/CM-CLUB/Public/editor/js/editor.js'></script>
-<script type="text/javascript" src='/CM-CLUB/Public/IndexJs/message.js'></script>
-<script type="text/javascript" src='/CM-CLUB/Public/ctmessage-master/ctmessage-master.js'></script>
 </body>
 </html>
