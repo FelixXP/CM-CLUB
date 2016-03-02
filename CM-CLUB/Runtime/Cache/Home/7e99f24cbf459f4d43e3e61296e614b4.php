@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CM-CLUB 活动</title>
+    <title>CM-CLUB 公会</title>
     <link rel="stylesheet" type="text/css" href="/CM-CLUB/Public/IndexCss/logBox.css" />
     <link rel="stylesheet" type="text/css" href="/CM-CLUB/Public/IndexCss/bottomBox.css" />
-    <link rel="stylesheet" type="text/css" href="/CM-CLUB/Public/IndexCss/activity.css" />
+    <link rel="stylesheet" type="text/css" href="/CM-CLUB/Public/IndexCss/club.css" />
 </head>
 <body>
 <!--添加登录框-->
@@ -30,23 +30,37 @@
     <li><a href="http://localhost/CM-CLUB/index.php/Home/Index/linkTo/aim/message" id="mesCont" >留言</a></li>
 </ul>
 <div id="main">
-    <div id="left">
-        <div id="calendar"></div>
-        <span><a id="topAct" href="#">热门活动</a></span>
-        <span><a id="myAct" href="#">我的活动</a></span>
-        <span><a id="creAct" href="#">发起活动</a></span>
-
+    <div id="searAct">
+        <form action="#" method="get">
+            <input type="search" name="search" id="searBox"/>
+            <input type="submit" value="搜索公会" id="searSub"/>
+            <span id="advSear"><a href="#">高级搜索</a></span>
+        </form>
     </div>
+    <ul id="content2">
+        <li><a>班级首页</a></li>
+        <li><a>我的班级</a></li>
+        <li><a>班级活动</a></li>
+    </ul>
 
-    <div id="right">
-        <div id="searAct">
-            <span>搜索你想要参加的活动</span>
-            <br/>
-            <form action="#" method="get">
-                <input type="search" name="search" id="searBox"/>
-                <input type="submit" value="搜索" id="searSub"/>
-            </form>
+    <div id="cluList">
+        <div class="cluBox">
+            <div class="cluBoxLeft">
+                <b>妖精的尾巴</b>
+                <img src="/CM-CLUB/Public/IndexImg/logo.png">
+            </div>
+            <div class="cluBoxRight">
+                <p class="cluAdmin">
+                    <span>创建人：马卡洛夫</span>
+                    <span>创建时间：2015-02-29 23:54:00</span>
+                </p>
+                <p class="cluBrief">
+                    魔导士公会“妖精的尾巴”，是一个为魔导士们从寻物到讨伐魔物等各样工作起到中介性质的组织，公会成员由众多厉害魔导士组成。公会内高手云集，行会的正负面名声都很高
+                </p>
+                <a href="#" class="join">立即加入</a>
+            </div>
         </div>
+
     </div>
 </div>
 

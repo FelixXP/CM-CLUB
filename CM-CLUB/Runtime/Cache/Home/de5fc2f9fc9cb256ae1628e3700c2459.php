@@ -46,7 +46,7 @@
         <?php echo ($arr['actBrief3']); ?>
     </p>
     <br/>
-    <span class="go goText"><a href="#">报名活动</a></span>
+    <span class="go goText"><a href="http://localhost/CM-CLUB/index.php/Home/Index/linkTo/aim/activity">报名活动</a></span>
     <span class="go"><img src="/CM-CLUB/Public/IndexImg/actArrow2.png">&nbsp;</span>
 </div>
 <!--公会-->

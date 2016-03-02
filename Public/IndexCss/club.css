@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:#D2EDE8;
+}
+a{
+    color:#3E3D32;
+}
+/*登录*/
+#login_box{
+    background-color:#B2C1E2;
+    text-align:right;
+    line-height:40px;
+}
+
+#contents,#logo img{
+    background-color:#7E90C2;
+}
+
+#contents li a{color:#FFFFFF;}
+
+#login_box a,#login_box span{
+    color:#FFFFFF;
+}
+
+#cluCont{
+    background-color:#586995;
+}
+
+#main{
+    height:600px;
+}
+
+/*搜索*/
+#searAct{
+    margin:20px;
+    text-align:center;
+}
+
+#searBox{
+
+    width:250px;
+    height:30px;
+    border: 2px #A0A0A0 solid;
+}
+
+#searSub{
+    font-size:18px;
+    font-family:"SimHei";
+    line-height:30px;
+    padding:0 0 0 10px;
+    letter-spacing:10px;
+    text-align:center;
+    background-color:#A476D8;
+    color:#f7f7fb;
+}
+
+#advSear > a{
+    color:#3F49DC;
+    font-family:"FangSong";
+    font-size:15px;
+}
+
+/*导航2*/
+#content2{
+    float:left;
+    text-align:left;
+    overflow:hidden;
+    position: absolute;
+    top:130px;
+    left:0;
+    cursor:pointer;
+}
+
+#content2 > li{
+    font-family:"KaiTi";
+    font-size:18px;
+    padding:0 0 5px 0;
+}
+
+/*公会列表*/
+#cluList{
+    margin:0 auto 0 auto;
+    width:70%;
+}
+
+.cluBox{
+    height:140px;
+    background-color:#FAF8E9;
+}
+
+.cluBoxLeft{
+    height:140px;
+    width:15%;
+    /*height:100%;*/
+    float:left;
+    text-align:center;
+    background-color:#589BA3;
+    margin: 0 8px 0 0;
+}
+
+.cluBoxLeft > img{
+    width:auto;
+    height:90px;
+    margin:0 auto 0 auto;
+}
+
+.cluBoxLeft > b{
+    display:block;
+    background-color:#75C6C9;
+    font-family:"STHeiti";
+    font-size:20px;
+    letter-spacing:6px;
+    padding:3px 0 0 3px;
+    line-height:35px;
+    color:#015B64;
+}
+
+.cluBoxRight{
+
+}
+
+.cluAdmin {
+    font-family:"SimHei";
+    color:#015B64;
+    padding: 5px 0 10px 0;
+
+}
+
+.cluBrief{
+    color:#1F2427;
+}
+
+
+
+.join{
+    float:right;
+    margin:40px 10px 0 0 ;
+}

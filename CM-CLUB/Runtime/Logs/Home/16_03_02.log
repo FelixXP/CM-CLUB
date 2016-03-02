@@ -1,0 +1,30 @@
+[ 2016-03-02T19:08:46+08:00 ] ::1 /CM-CLUB/index.php/Home/Message/getMessage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0530s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `message` ORDER BY time desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 4 D:\XAMPP\htdocs\CM-CLUB\CM-CLUB\Home\Model\MessageModel.class.php 第 32 行.
+
+[ 2016-03-02T19:18:35+08:00 ] ::1 /CM-CLUB/Index.php/Home/User/register
+ERR: Failed to authenticate on SMTP server with username "felixxp@163.com" using 2 possible authenticators
+
+[ 2016-03-02T19:45:07+08:00 ] ::1 /CM-CLUB/index.php/Home/Message/getMessage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `message` ORDER BY time desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 4 D:\XAMPP\htdocs\CM-CLUB\CM-CLUB\Home\Model\MessageModel.class.php 第 32 行.
+
+[ 2016-03-02T19:45:27+08:00 ] ::1 /CM-CLUB/index.php/Home/Message/getMessage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `message` ORDER BY time desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 5 D:\XAMPP\htdocs\CM-CLUB\CM-CLUB\Home\Model\MessageModel.class.php 第 32 行.
+
