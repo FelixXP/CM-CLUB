@@ -30,7 +30,7 @@
     <li><a href="http://localhost/CM-CLUB/index.php/Home/Index/linkTo/aim/message" id="mesCont" >留言</a></li>
 </ul>
 <ul id="content2">
-    <li><a>班级首页</a></li>
+    <li><a id="cluHome">班级首页</a></li>
     <li><a>我的公会</a></li>
     <li><a id="creClub">创建公会</a></li>
 </ul>
@@ -82,7 +82,7 @@
 
     <!--<div id="creClubBox">-->
         <!--<b>创建公会</b>-->
-        <!--<form action="" method="post">-->
+        <!--<form action="http://localhost/CM-CLUB/index.php/Home/Club/creClub" method="post">-->
             <!--<table>-->
                 <!--<tr>-->
                     <!--<td><span>公会名称：</span></td>-->
