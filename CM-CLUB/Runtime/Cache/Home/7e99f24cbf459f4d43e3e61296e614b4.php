@@ -29,6 +29,11 @@
     <li><a href="#time" id="timCont">时光</a></li>
     <li><a href="http://localhost/CM-CLUB/index.php/Home/Index/linkTo/aim/message" id="mesCont" >留言</a></li>
 </ul>
+<ul id="content2">
+    <li><a>班级首页</a></li>
+    <li><a>我的公会</a></li>
+    <li><a id="creClub">创建公会</a></li>
+</ul>
 <div id="main">
     <div id="searAct">
         <form action="#" method="get">
@@ -37,11 +42,6 @@
             <span id="advSear"><a href="#">高级搜索</a></span>
         </form>
     </div>
-    <ul id="content2">
-        <li><a>班级首页</a></li>
-        <li><a>我的班级</a></li>
-        <li><a>班级活动</a></li>
-    </ul>
 
     <div id="cluList">
         <div class="cluBox">
@@ -61,9 +61,44 @@
             </div>
         </div>
 
-    </div>
-</div>
+        <div class="cluBox">
+            <div class="cluBoxLeft">
+                <b>妖精的尾巴</b>
+                <img src="/CM-CLUB/Public/IndexImg/logo.png">
+            </div>
+            <div class="cluBoxRight">
+                <p class="cluAdmin">
+                    <span>创建人：马卡洛夫</span>
+                    <span>创建时间：2015-02-29 23:54:00</span>
+                </p>
+                <p class="cluBrief">
+                    魔导士公会“妖精的尾巴”，是一个为魔导士们从寻物到讨伐魔物等各样工作起到中介性质的组织，公会成员由众多厉害魔导士组成。公会内高手云集，行会的正负面名声都很高
+                </p>
+                <a href="#" class="join">立即加入</a>
+            </div>
+        </div>
 
+    </div>
+
+    <!--<div id="creClubBox">-->
+        <!--<b>创建公会</b>-->
+        <!--<form action="" method="post">-->
+            <!--<table>-->
+                <!--<tr>-->
+                    <!--<td><span>公会名称：</span></td>-->
+                    <!--<td><input type="text" name="cluName" id="namText" /></td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td><span>公会简介：</span></td>-->
+                    <!--<td><textarea name="cluBrief" id="breText" maxlength="200">content</textarea></td>-->
+                <!--</tr>-->
+            <!--</table>-->
+            <!--<input type="submit" value="创 建" id="creSubmit"/>-->
+            <!--<a href="#" id="creClose">取消</a>-->
+        <!--</form>-->
+    <!--</div>-->
+
+</div>
 
 <!--添加底部-->
 <div id="bottom">
@@ -82,5 +117,7 @@
         <p>GitHub：https://github.com/FelixXP</p>
     </div>
 </div>
+<script type="text/javascript" src='/CM-CLUB/Public/IndexJs/jquery-2.1.4.js'></script>
+<script type="text/javascript" src='/CM-CLUB/Public/IndexJs/club.js'></script>
 </body>
 </html>
