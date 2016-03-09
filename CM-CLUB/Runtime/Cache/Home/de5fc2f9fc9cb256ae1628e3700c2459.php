@@ -61,7 +61,7 @@
         <?php echo ($arr['cluBrief3']); ?>
     </p>
     <br/>
-    <span class="go goText cluGoText"><a href="#" class="cluGo">加入公会</a></span>
+    <span class="go goText cluGoText"><a href="./Club" class="cluGo">加入公会</a></span>
     <span class="go"><img src="/CM-CLUB/Public/IndexImg/cluArrow2.png">&nbsp;</span>
 </div>
 <!--时光邮件-->

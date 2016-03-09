@@ -11,6 +11,6 @@ use Think\Controller;
 
 class ActivityController extends Controller{
     public function index(){
-        $this->display('activity');
+        $this->display('Index/activity');
     }
 }

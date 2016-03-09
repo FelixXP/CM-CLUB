@@ -25,8 +25,8 @@
 <a href="http://localhost/CM-CLUB/index.php/Home/Index" id="logo"><img src="/CM-CLUB/Public/IndexImg/logo.png"></a>
 <ul id="contents">
     <li><a href="./Activity" id="actCont">活动</a></li>
-    <li><a href="./Club" id="cluCont">班级</a></li>
-    <li><a href="http://hi2future.com/" id="timCont">时光</a></li>
+    <li><a href="./Club/" id="cluCont">班级</a></li>
+    <li><a href="#time" id="timCont">时光</a></li>
     <li><a href="./Message" id="mesCont" >留言</a></li>
 </ul>
 <ul id="content2">

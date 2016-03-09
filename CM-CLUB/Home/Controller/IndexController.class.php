@@ -16,7 +16,7 @@ class IndexController extends Controller {
         $this->assign('arr',$arr);
         //显示首页
 //        dump($arr);
-        $this->display('club');
+        $this->display('index');
     }
 
     //页面跳转

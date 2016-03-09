@@ -8,6 +8,9 @@
 namespace Home\Controller;
 use Think\Controller;
 class MessageController extends Controller {
+    public function index(){
+        $this->display('Index/message');
+    }
     //添加新留言
     public function newMessage(){
         $mes=D('Message');

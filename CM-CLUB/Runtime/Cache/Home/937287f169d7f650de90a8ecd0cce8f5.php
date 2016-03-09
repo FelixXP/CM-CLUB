@@ -27,10 +27,10 @@
 <link rel="stylesheet" type="text/css" href="/CM-CLUB/Public/IndexCss/contentBox.css" />
 <a href="http://localhost/CM-CLUB/index.php/Home/Index" id="logo"><img src="/CM-CLUB/Public/IndexImg/logo.png"></a>
 <ul id="contents">
-    <li><a href="http://localhost/CM-CLUB/index.php/Home/Index/linkTo/aim/activity" id="actCont">活动</a></li>
-    <li><a href="http://localhost/CM-CLUB/index.php/Home/Index/linkTo/aim/club" id="cluCont">班级</a></li>
-    <li><a href="#time" id="timCont">时光</a></li>
-    <li><a href="http://localhost/CM-CLUB/index.php/Home/Index/linkTo/aim/message" id="mesCont" >留言</a></li>
+    <li><a href="./Activity" id="actCont">活动</a></li>
+    <li><a href="./Club" id="cluCont">班级</a></li>
+    <li><a href="http://hi2future.com/" id="timCont">时光</a></li>
+    <li><a href="./Message" id="mesCont" >留言</a></li>
 </ul>
 <div id="main">
     <a id="toEdit" href="#edit"><span>我有话说</span></a>
