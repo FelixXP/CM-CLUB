@@ -8,19 +8,24 @@
 namespace Home\Controller;
 use Think\Controller;
 class ClubController extends Controller{
+    public function index(){
+        $mClub=D('club');
+        $cluList=$mClub->getClubList();
+        $this->assign('cluList',$cluList);
+        $this->display('Index/club');
 
-//创建
-public function creClub(){
-    if(!checkLogin()){
-        $this->error("您尚未登录，请登录后重试...");
-    }else{
+    }
+
+    //创建
+    public function creClub(){
         $mClub=D('club');
         $res=$mClub->create();
         if($res){
-            $this->success("创建成功，即将返回上一页...");
-        }else{
-            $this->error("创建失败，请稍后重试...");
+            $this->success('创建成功');
         }
+        else{
+            $this->error('创建失败，请稍后重试');
+        }
+
     }
-}
 }

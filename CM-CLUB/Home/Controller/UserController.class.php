@@ -68,4 +68,11 @@ class UserController extends Controller{
         $this->redirect('Home/Index/index');
 
     }
+
+    // 返回登录状态
+    public function check(){
+        $data = checkLogin();
+        echo $data;
+    }
 }
+

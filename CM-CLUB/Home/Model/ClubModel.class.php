@@ -33,4 +33,26 @@ class ClubModel extends Model{
             return false;
         }
     }
+
+//    获取班级信息列表
+    public function getClubList(){
+        $datalist=array();
+        $datalist=$this->select();
+        $i=0;
+
+        while($datalist[$i]){
+            $query="user_clu.club_id={$datalist[$i][club_id]}";
+
+            $admin=$this->table('user_clu')
+                ->where($query)
+                ->join("user on user.user_id=user_clu.user_id")
+                ->select();
+
+            $datalist[$i]['admin']=$admin[0]['username'];
+            $i++;
+        }
+
+        return $datalist;
+
+    }
 }

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CM-CLUB 公会</title>
+    <title>CM-CLUB 班级</title>
     <link rel="stylesheet" type="text/css" href="/CM-CLUB/Public/IndexCss/logBox.css" />
     <link rel="stylesheet" type="text/css" href="/CM-CLUB/Public/IndexCss/bottomBox.css" />
     <link rel="stylesheet" type="text/css" href="/CM-CLUB/Public/IndexCss/club.css" />
@@ -25,58 +25,41 @@
 <a href="http://localhost/CM-CLUB/index.php/Home/Index" id="logo"><img src="/CM-CLUB/Public/IndexImg/logo.png"></a>
 <ul id="contents">
     <li><a href="http://localhost/CM-CLUB/index.php/Home/Index/linkTo/aim/activity" id="actCont">活动</a></li>
-    <li><a href="http://localhost/CM-CLUB/index.php/Home/Index/linkTo/aim/club" id="cluCont">公会</a></li>
+    <li><a href="http://localhost/CM-CLUB/index.php/Home/Index/linkTo/aim/club" id="cluCont">班级</a></li>
     <li><a href="#time" id="timCont">时光</a></li>
     <li><a href="http://localhost/CM-CLUB/index.php/Home/Index/linkTo/aim/message" id="mesCont" >留言</a></li>
 </ul>
 <ul id="content2">
     <li><a id="cluHome">班级首页</a></li>
-    <li><a>我的公会</a></li>
-    <li><a id="creClub">创建公会</a></li>
+    <li><a>我的班级</a></li>
+    <li><a id="creClub">创建班级</a></li>
 </ul>
 <div id="main">
     <div id="searAct">
         <form action="#" method="get">
             <input type="search" name="search" id="searBox"/>
-            <input type="submit" value="搜索公会" id="searSub"/>
+            <input type="submit" value="搜索班级" id="searSub"/>
             <span id="advSear"><a href="#">高级搜索</a></span>
         </form>
     </div>
 
     <div id="cluList">
-        <div class="cluBox">
-            <div class="cluBoxLeft">
-                <b>妖精的尾巴</b>
-                <img src="/CM-CLUB/Public/IndexImg/logo.png">
-            </div>
-            <div class="cluBoxRight">
-                <p class="cluAdmin">
-                    <span>创建人：马卡洛夫</span>
-                    <span>创建时间：2015-02-29 23:54:00</span>
-                </p>
-                <p class="cluBrief">
-                    魔导士公会“妖精的尾巴”，是一个为魔导士们从寻物到讨伐魔物等各样工作起到中介性质的组织，公会成员由众多厉害魔导士组成。公会内高手云集，行会的正负面名声都很高
-                </p>
-                <a href="#" class="join">立即加入</a>
-            </div>
-        </div>
-
-        <div class="cluBox">
-            <div class="cluBoxLeft">
-                <b>妖精的尾巴</b>
-                <img src="/CM-CLUB/Public/IndexImg/logo.png">
-            </div>
-            <div class="cluBoxRight">
-                <p class="cluAdmin">
-                    <span>创建人：马卡洛夫</span>
-                    <span>创建时间：2015-02-29 23:54:00</span>
-                </p>
-                <p class="cluBrief">
-                    魔导士公会“妖精的尾巴”，是一个为魔导士们从寻物到讨伐魔物等各样工作起到中介性质的组织，公会成员由众多厉害魔导士组成。公会内高手云集，行会的正负面名声都很高
-                </p>
-                <a href="#" class="join">立即加入</a>
-            </div>
-        </div>
+        <?php if(is_array($cluList)): foreach($cluList as $key=>$clu): ?><div class="cluBox">
+                <div class="cluBoxLeft">
+                    <b><?php echo ($clu["clubname"]); ?></b>
+                    <img src="/CM-CLUB/Public/IndexImg/logo.png">
+                </div>
+                <div class="cluBoxRight">
+                    <p class="cluAdmin">
+                        <span>创建人：<?php echo ($clu["admin"]); ?></span>
+                        <span>创建时间：<?php echo ($clu["time"]); ?></span>
+                    </p>
+                    <p class="cluBrief">
+                        <?php echo ($cluList[0][clubbrief]); ?>
+                    </p>
+                    <a href="#" class="join">立即加入</a>
+                </div>
+            </div><?php endforeach; endif; ?>
 
     </div>
 
@@ -99,6 +82,8 @@
     <!--</div>-->
 
 </div>
+
+
 
 <!--添加底部-->
 <div id="bottom">
